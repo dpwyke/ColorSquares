@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ColorSquares</title>
+    <style>
+    
+    .tile{
+        margin: -5px;
+        display: inline-block;
+        background-color: black;
+        width: 10vw;
+        height: 10vw;         
+    }   
+</style>
+<script>
+
+
+       function drawTile()
+        {
+            x = document.getElementById("userInput").value;
+            document.getElementById("header").innerHTML = x;
+            document.getElementById("userInput").value = "";
+
+           
+
+        }
+
+        function HoverBlock(color)
+        {
+            a = Math.floor(Math.random()* 255 + 1);
+            b = Math.floor(Math.random()* 255 + 1);
+            c = Math.floor(Math.random()* 255 + 1);
+            document.getElementById(color).style.backgroundColor="rgba(" + a + ", " + b +", " + c + ")"
+ 
+        }
+        function changeHeader()
+        {
+            x = document.getElementById("userInput").value;
+            document.getElementById("header").innerHTML = x;
+            document.getElementById("userInput").value = "";
+        }
+
+
+    </script>
+</head>
+<body>
+  
+    <div class="tile" id="mydiv0" onmouseover="HoverBlock('mydiv0')"></div>
+    <div class="tile" id="mydiv1" onmouseover="HoverBlock('mydiv1')"></div>
+    <div class="tile" id="mydiv2" onmouseover="HoverBlock('mydiv2')"></div>
+    <div class="tile" id="mydiv3" onmouseover="HoverBlock('mydiv3')"></div>
+    <div class="tile" id="mydiv4" onmouseover="HoverBlock('mydiv4')"></div>
+    <div class="tile" id="mydiv5" onmouseover="HoverBlock('mydiv5')"></div>
+    <div class="tile" id="mydiv6" onmouseover="HoverBlock('mydiv6')"></div>
+    <div class="tile" id="mydiv7" onmouseover="HoverBlock('mydiv7')"></div>
+    <div class="tile" id="mydiv8" onmouseover="HoverBlock('mydiv8')"></div>
+    <div class="tile" id="mydiv9" onmouseover="HoverBlock('mydiv9')"></div>
+    <div class="tile" id="mydiv10" onmouseover="HoverBlock('mydiv10')"></div>
+    <div class="tile" id="mydiv11" onmouseover="HoverBlock('mydiv11')"></div>
+    <div class="tile" id="mydiv12" onmouseover="HoverBlock('mydiv12')"></div>
+    <div class="tile" id="mydiv13" onmouseover="HoverBlock('mydiv13')"></div>
+    <div class="tile" id="mydiv14" onmouseover="HoverBlock('mydiv14')"></div>
+    <div class="tile" id="mydiv15" onmouseover="HoverBlock('mydiv15')"></div>
+    <div class="tile" id="mydiv16" onmouseover="HoverBlock('mydiv16')"></div>
+    <div class="tile" id="mydiv17" onmouseover="HoverBlock('mydiv17')"></div>
+    <div class="tile" id="mydiv18" onmouseover="HoverBlock('mydiv18')"></div>
+    <div class="tile" id="mydiv19" onmouseover="HoverBlock('mydiv19')"></div>
+    <div class="tile" id="mydiv20" onmouseover="HoverBlock('mydiv20')"></div>
+    <div class="tile" id="mydiv21" onmouseover="HoverBlock('mydiv21')"></div>
+    <div class="tile" id="mydiv22" onmouseover="HoverBlock('mydiv22')"></div>
+    <div class="tile" id="mydiv23" onmouseover="HoverBlock('mydiv23')"></div>
+    <div class="tile" id="mydiv24" onmouseover="HoverBlock('mydiv24')"></div>
+    <div class="tile" id="mydiv25" onmouseover="HoverBlock('mydiv25')"></div>
+    <div class="tile" id="mydiv26" onmouseover="HoverBlock('mydiv26')"></div>
+    <div class="tile" id="mydiv27" onmouseover="HoverBlock('mydiv27')"></div>
+    <div class="tile" id="mydiv28" onmouseover="HoverBlock('mydiv28')"></div>
+    <div class="tile" id="mydiv29" onmouseover="HoverBlock('mydiv29')"></div>
+    <div class="tile" id="mydiv30" onmouseover="HoverBlock('mydiv30')"></div>
+    <div class="tile" id="mydiv31" onmouseover="HoverBlock('mydiv31')"></div>
+    <div class="tile" id="mydiv32" onmouseover="HoverBlock('mydiv32')"></div>
+    <div class="tile" id="mydiv33" onmouseover="HoverBlock('mydiv33')"></div>
+    <div class="tile" id="mydiv34" onmouseover="HoverBlock('mydiv34')"></div>
+    <div class="tile" id="mydiv35" onmouseover="HoverBlock('mydiv35')"></div> 
+    <div class="tile" id="mydiv36" onmouseover="HoverBlock('mydiv36')"></div> 
+    <div class="tile" id="mydiv37" onmouseover="HoverBlock('mydiv37')"></div> 
+    <div class="tile" id="mydiv38" onmouseover="HoverBlock('mydiv38')"></div> 
+    <div class="tile" id="mydiv39" onmouseover="HoverBlock('mydiv39')"></div> 
+    <div class="tile" id="mydiv40" onmouseover="HoverBlock('mydiv40')"></div> 
+    <div class="tile" id="mydiv41" onmouseover="HoverBlock('mydiv41')"></div> 
+    <div class="tile" id="mydiv42" onmouseover="HoverBlock('mydiv42')"></div> 
+    <div class="tile" id="mydiv43" onmouseover="HoverBlock('mydiv43')"></div> 
+    <div class="tile" id="mydiv44" onmouseover="HoverBlock('mydiv44')"></div> 
+    <div class="tile" id="mydiv45" onmouseover="HoverBlock('mydiv45')"></div> 
+    <div class="tile" id="mydiv46" onmouseover="HoverBlock('mydiv46')"></div> 
+    <div class="tile" id="mydiv47" onmouseover="HoverBlock('mydiv47')"></div> 
+    <div class="tile" id="mydiv48" onmouseover="HoverBlock('mydiv48')"></div> 
+    <div class="tile" id="mydiv49" onmouseover="HoverBlock('mydiv49')"></div>
+</body>
+
+</html>
